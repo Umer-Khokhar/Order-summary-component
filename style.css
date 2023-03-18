@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 body {
+    background: url("pattern-background-desktop.svg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     font-family: 'Red Hat Display', sans-serif;
     display: flex;
     justify-content: center;
