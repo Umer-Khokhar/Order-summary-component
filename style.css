@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700;900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.card {
+    overflow: hidden;
+    width: 410px;
+    background-color: #fff;
+    box-shadow: 3px 5px 16px rgb(180, 179, 179);
+    border-radius: 18px;
+    
+    
+}
+.card > .info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: .9rem;
+    text-align: center;
+}
+.info-container > h1 {
+    margin-top: 2rem;
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+.info-container > p {
+    padding: 0 2rem;
+    line-height: 25px;
+    color: hsl(224, 23%, 55%);
+    margin-bottom: 2rem;
+}
+.hero-img {
+    width: 100%;
+}
+.plan {
+    background-color: #eff4f59c;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 1rem;
+}
+.plan-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.3rem;
+}
+.plan-price > b {
+    color: hsl(223, 47%, 23%);
+    font-weight: 700;
+}
+.plan-price > p {
+    color: hsl(224, 23%, 55%);
+}
+.plan a {
+    font-weight: 600;
+    color: hsl(253, 100%, 55%);
+}
+.btns {
+    padding: 2rem 2.3rem 1rem 2.3rem;
+}
+button {
+    width: 100%;
+    padding: .8rem 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: .5rem;
+}
+.btn {
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    box-shadow: 0px 2px 20px rgb(144, 146, 160);
+    margin-bottom: .5rem;
+    font-weight: 700;
+}
+.btn:hover {
+    background-color: hsla(245, 75%, 52%, 0.61);
+}
+.btn1 {
+    background-color: #fff;
+    margin-top: .3rem;
+    color: hsl(224, 16%, 41%);
+    font-weight: 700 !important;
+}
+.btn1:hover {
+    color: black;
+}
+@media screen and (max-width:510px) {
+    .card > * {
+        /* width: 80%; */
+        margin: 1rem 2rem;
+    }
+    
+}
