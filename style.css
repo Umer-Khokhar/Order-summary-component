@@ -16,6 +16,7 @@ body {
     align-items: center;
     height: 100vh;
     flex-direction: column;
+    baclground-color: #eff4f59c;
 }
 .card {
     overflow: hidden;
