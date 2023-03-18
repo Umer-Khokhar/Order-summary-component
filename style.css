@@ -5,18 +5,16 @@
     box-sizing: border-box;
 }
 body {
-    background: url("pattern-background-desktop.svg") no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
     font-family: 'Red Hat Display', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: hsl(225, 100%, 94%);
     flex-direction: column;
-    baclground-color: #eff4f59c;
+    background-image: url("pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    /* background-size: cover; */
 }
 .card {
     overflow: hidden;
